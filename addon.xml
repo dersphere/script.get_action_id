@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.get_action_id"
+       name="Get action ID"
+       version="0.0.1"
+       provider-name="sphere">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">A simple script to show the action IDs of keypresses</summary>
+    <description lang="en">A simple script to show the action IDs of keypresses</description>
+  </extension>
+</addon>

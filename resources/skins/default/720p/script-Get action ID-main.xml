@@ -1,0 +1,36 @@
+﻿<window>
+    <controls>
+        <control type="image">
+            <description>Black Background</description>
+            <posx>300</posx>
+            <posy>310</posy>
+            <width>400</width>
+            <height>100</height>
+            <texture>black.png</texture>
+        </control>
+        <control type="label">
+            <description>Label</description>
+            <posx>310</posx>
+            <posy>310</posy>
+            <width>400</width>
+            <height>50</height>
+            <font>font14</font>
+            <textcolor>FFFFFFFF</textcolor>
+            <label>Press UP to exit</label>
+            <align>center</align>
+            <aligny>center</aligny>
+        </control>
+        <control type="label" id="3300">
+            <description>Label</description>
+            <posx>310</posx>
+            <posy>360</posy>
+            <width>400</width>
+            <height>50</height>
+            <font>font14</font>
+            <textcolor>FFFFFFFF</textcolor>
+            <label>Press any Key to see its action ID</label>
+            <align>center</align>
+            <aligny>center</aligny>
+        </control>
+    </controls>
+</window>
